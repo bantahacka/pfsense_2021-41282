@@ -1,7 +1,7 @@
 # pfSense RCE Tool for CVE-2021-41282
-A tool for CTFs or Penetration Tests that can be used to help exploit [CVE-2021-41282.] on pfSense routers running version <= 2.5.2 (https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41282)
+A tool for CTFs or Penetration Tests that can be used to help exploit [CVE-2021-41282](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41282) on pfSense routers running version <= 2.5.2. 
 
-Payload based on the [PoC published by Shielder.] (https://www.shielder.com/advisories/pfsense-remote-command-execution/)
+Payload based on the [PoC published by Shielder](https://www.shielder.com/advisories/pfsense-remote-command-execution/).
 
 Known issues:
  - When sending a command to the pfSense router, the return key has to be pressed twice to get the output. This may get fixed later on. If anyone knows how to fix this please feel free to update the code.
